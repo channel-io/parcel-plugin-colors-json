@@ -1,4 +1,4 @@
-# parcel-plugin-build-colors-json
+# @channel-io/parcel-plugin-json
 Parcel bundling suite for [channel-colors](https://github.com/zoyi/channel-colors). It builds platform-dependent color resources by single maintenance point.
 
 For now, it supports platforms below:
