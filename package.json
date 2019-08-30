@@ -1,5 +1,5 @@
 {
-  "name": "@channel-io/parcel-plugin-build-colors-json",
+  "name": "@channel-io/parcel-plugin-json",
   "version": "0.0.0",
   "description": "Library suite for building colors-json of channel-colors.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoyi/parcel-plugin-build-colors-json.git"
+    "url": "git+https://github.com/zoyi/-channel-io-parcel-plugin-json.git"
   },
   "keywords": [
     "parcel",
@@ -18,9 +18,9 @@
   "author": "Team Channel.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoyi/parcel-plugin-build-colors-json/issues"
+    "url": "https://github.com/zoyi/-channel-io-parcel-plugin-json/issues"
   },
-  "homepage": "https://github.com/zoyi/parcel-plugin-build-colors-json#readme",
+  "homepage": "https://github.com/zoyi/-channel-io-parcel-plugin-json#readme",
   "devDependencies": {
     "jest": "^24.9.0"
   }
