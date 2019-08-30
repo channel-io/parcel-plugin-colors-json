@@ -9,3 +9,6 @@ For now, it supports platforms below:
 
 ### More information
 Please visit [channel-colors](https://github.com/zoyi/channel-colors) project.
+
+## License
+MIT License.
