@@ -1,6 +1,6 @@
 {
   "name": "@channel-io/parcel-plugin-build-colors-json",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Library suite for building colors-json of channel-colors.",
   "main": "index.js",
   "scripts": {
