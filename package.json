@@ -4,7 +4,7 @@
   "description": "Library suite for building colors-json of channel-colors.",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "jest --passWithNoTests"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/zoyi/parcel-plugin-colors-json#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.3"
   }
 }

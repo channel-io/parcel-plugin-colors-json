@@ -1,0 +1,20 @@
+{
+  "foo70": {
+    "hex": "#000000",
+    "opacity": 70,
+    "rgb": "0,0,0",
+    "family": "foo"
+  },
+  "foo50": {
+    "hex": "#000000",
+    "opacity": 50,
+    "rgb": "0,0,0",
+    "family": "foo"
+  },
+  "bar100": {
+    "hex": "#FFFFFF",
+    "opacity": 100,
+    "rgb": "255,255,255",
+    "family": "bar"
+  }
+}
