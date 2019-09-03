@@ -1,9 +1,9 @@
-const SCSSAsset = require('../../lib/assets/SCSSAsset.js');
+const Asset = require('../../lib/assets/SCSSAsset.js');
 const src = require('../test.colors.json');
 
 describe('SCSSAsset Test', () => {
-  test('Test parsing.', () => {
-    const parsedSCSS = SCSSAsset.parseStatic(src);
+  test('Should return converted string array when src is valid JSON.', () => {
+    const parsedSCSS = Asset.parseStatic(src);
     const expectation = [
       '/* foo */',
       '$ch-foo70: rgba(0, 0, 0, .7);',
@@ -24,5 +24,11 @@ describe('SCSSAsset Test', () => {
     ];
 
     expect(parsedSCSS).toEqual(expectation);
+  });
+
+  test('Return empty array when src is falsy.', () => {
+    const result = Asset.parseStatic();
+    const expectation = [];
+    expect(result).toEqual(expectation);
   });
 });
