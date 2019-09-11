@@ -5,12 +5,14 @@ describe('CSSAsset Test', () => {
   test('Should return converted string array when src is valid JSON.', () => {
     const result = Asset.parseStatic(src);
     const expectation = [
-      '/* foo */',
-      '--foo-70: rgba(0, 0, 0, .7);',
-      '--foo-50: rgba(0, 0, 0, .5);',
+      ':root {',
+      '  /* foo */',
+      '  --foo-70: rgba(0, 0, 0, .7);',
+      '  --foo-50: rgba(0, 0, 0, .5);',
       '',
-      '/* bar */',
-      '--bar-100: rgba(255, 255, 255, 1);',
+      '  /* bar */',
+      '  --bar-100: rgba(255, 255, 255, 1);',
+      '}',
     ];
 
     expect(result).toEqual(expectation);
