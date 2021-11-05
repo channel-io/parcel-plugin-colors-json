@@ -1,3 +1,8 @@
+# Project Status
+This project is **DEPRECATED** and now be a part of _Project Mondrian_.
+
+See [bezier-react](https://github.com/channel-io/bezier-react).
+
 # @channel-io/parcel-plugin-json
 Parcel bundling suite for [channel-colors](https://github.com/zoyi/channel-colors). It builds platform-dependent color resources by single maintenance point.
 
